@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+    <meta charset=" UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Pasteles Literarios </title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /* Estilo de header */
+        header {
+            background-color: rgb(99, 4, 4);
+            padding: 1px;
+            text-align: center;
+            font-size: 35px;
+            color: white;       
+
+        }
+
+        #column1 {
+            position:absolute;
+            left:10px;
+            width:20%;
+            background-color:#ccc;
+            height:550px;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        #column2 {
+            position:absolute;
+            left:350px;
+            width:300px;
+            background-color:rgb(253, 253, 253);
+            height:550px;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        #column3 {
+            position:absolute;
+            left:650px;
+            width:250px;
+            background-color:rgb(253, 253, 253);
+            height:300px;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        #column4 {
+            position:absolute;
+            left:950px;
+            width:250px;
+            background-color:rgb(253, 253, 253);
+            height:300px;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+ 
+    </style>
+</head>
+<body>
+
+     <header>
+        <img src="C:\Users\Braulio\Documents\Cursos\FullStack\HTML\Pasteles Literarios.png" width="100px" height="100px" >
+        <h2>Pasteles Literarios</h2>
+
+    </header>
+
+          
+    <form action= "pedido.js">
+            <div id="column1">
+
+                <h1>Haz tu pedido</h1>
+                <ul>
+                    <li><a href="#">Pedidos</a></li>
+                    <li><a href="#">Ingredientes restantes</a></li>
+                </ul>
+            </div>
+
+            <div id="column2">
+
+                <h2>Pedido </h2>
+                
+                <dt>Pedido #150</dt><br><br>
+
+                <dt>Julieta Montiel González</dt><br><br>
+
+                <dt>5544332211</dt><br><br>
+
+                <dt>julymont@gmail.com</dt><br><br>
+
+                <dt>Pastel de dos sabores: Garro y Tario. Adorno de Frankenstein. Sin gluten.</dt><br><br>
+
+
+            </div>
+      
+            <div id="column3">
+
+                <h2>Elige tus sabores</h2>
+                <input type="checkbox" id="Rulfo" name="Sabor" value="Rulfo">
+                <label for="Rulfo"> Rulfo</label><br><br>
+
+                <input type="checkbox" id="Dávila" name="Sabor" value="Dávila">
+                <label for="Dávila"> Dávila</label><br><br>
+
+                <input type="checkbox" id="Garro" name="Sabor" value="Garro" checked>
+                <label for="Garro"> Garro</label><br><br>
+
+                <input type="checkbox" id="Chimal" name="Sabor" value="Chimal">
+                <label for="Chimal"> Chimal</label><br><br>
+
+                <input type="checkbox" id="Castellanos" name="Sabor" value="Castellanos">
+                <label for="Castellanos"> Castellanos</label><br><br>
+
+                <input type="checkbox" id="Glantz" name="Sabor" value="Glantz">
+                <label for="Glantz"> Glantz</label><br><br>
+
+                <input type="checkbox" id="Sandoval" name="Sabor" value="Sandoval">
+                <label for="Sandoval"> Sandoval</label><br><br>
+
+                <input type="checkbox" id="Tario" name="Sabor" value="Tario" checked>
+                <label for="Tario"> Tario</label><br><br>
+            </div>
+
+            <div id="column4">
+
+                <h2>Elige tus adornos</h2>
+                <input type="checkbox" id="Velas númericas" name="Adorno" value="Velas númericas">
+                <label for="Velas númericas"> Velas numéricas</label><br><br>
+
+                <input type="checkbox" id="Velas en forma de libros name" name="Adorno" value="Velas en forma de libros">
+                <label for="Velas en forma de libros"> Velas en forma de libros</label><br><br>
+
+                <input type="checkbox" id="Edgar Allan Poe" name="Adorno" value="Edgar Allan Poe">
+                <label for="Edgar Allan Poe"> Edgar Allan Poe</label><br><br>
+
+                <input type="checkbox" id="Julio Cortázar" name="Adorno" value="Julio Cortázar">
+                <label for="Julio Cortázar"> Julio Cortázar</label><br><br>
+
+                <input type="checkbox" id="Jorge Luis Borges" name="Adorno" value="Jorge Luis Borges">
+                <label for="Jorge Luis Borges"> Jorge Luis Borges</label><br><br>
+
+                <input type="checkbox" id="Frankenstein" name="Adorno" value="Frankenstein" checked>
+                <label for="Frankenstein"> Frankenstein</label><br><br>
+
+                <input type="checkbox" id="Stephen King" name="Adorno" value="Stephen King">
+                <label for="Stephen King"> Stephen King</label><br><br>
+         
+                
+            </div>
+        </form>
+ 
+</body>
+</html>
